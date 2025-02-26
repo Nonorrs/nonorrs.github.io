@@ -65,8 +65,8 @@ h1 {
 
 /* Icônes personnalisées */
 .icon {
-    width: 14px; /* Taille proche du texte */
-    height: 14px;
+    width: 12px; /* Taille proche du texte */
+    height: 12px;
     vertical-align: middle; /* Aligné avec le texte */
     margin-right: 5px; /* Petit espace entre l'icône et le texte */
 }
