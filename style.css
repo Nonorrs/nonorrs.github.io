@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #ccc; /* Fond gris */
+    color: black; /* Texte en noir */
     margin: 0;
     padding: 0;
 }
@@ -20,12 +20,13 @@ h1 {
 }
 
 .project-card {
-    background: white;
+    background: orange; /* Cases en orange */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 15px;
     width: 250px;
     text-align: center;
+    color: black; /* Texte en noir dans les cases */
 }
 
 .project-card img {
@@ -42,7 +43,8 @@ h1 {
 
 .project-card a {
     text-decoration: none;
-    color: blue;
+    color: black; /* Liens en noir */
+    font-weight: bold;
 }
 
 .project-card a:hover {
