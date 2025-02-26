@@ -65,8 +65,8 @@ h1 {
 
 /* Icônes personnalisées */
 .icon {
-    width: 16px;
-    height: 16px;
+    width: 5px;
+    height: 5px;
     filter: invert(0); /* S'assure que l'image garde ses couleurs */
 }
 
