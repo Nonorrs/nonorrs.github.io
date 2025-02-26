@@ -1,4 +1,4 @@
-const username = "TON_NOM_UTILISATEUR_GITHUB"; // Remplace avec ton pseudo GitHub
+const username = "Nonorrs"; // Remplace avec ton pseudo GitHub
 const repoList = document.getElementById("project-list");
 
 // Fonction pour récupérer les repositories de l'utilisateur
