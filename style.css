@@ -65,10 +65,12 @@ h1 {
 
 /* Icônes personnalisées */
 .icon {
-    width: 16px;
-    height: 16px;
-    filter: invert(0); /* S'assure que l'image garde ses couleurs */
+    width: 14px; /* Taille proche du texte */
+    height: 14px;
+    vertical-align: middle; /* Aligné avec le texte */
+    margin-right: 5px; /* Petit espace entre l'icône et le texte */
 }
+
 
 .project-card p .icon {
     vertical-align: middle;
