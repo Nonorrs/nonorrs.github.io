@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #ccc; /* Fond gris */
+    background-color: #444; /* Gris plus foncé */
     color: black; /* Texte en noir */
     margin: 0;
     padding: 0;
@@ -9,6 +9,7 @@ body {
 
 h1 {
     margin-top: 20px;
+    color: white; /* Titre en blanc pour plus de contraste */
 }
 
 .projects-container {
