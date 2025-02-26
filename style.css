@@ -63,7 +63,14 @@ h1 {
     font-size: 14px;
 }
 
-/* Icônes */
-.fa-code, .fa-gamepad {
+/* Icônes personnalisées */
+.icon {
+    width: 16px;
+    height: 16px;
+    filter: invert(0); /* S'assure que l'image garde ses couleurs */
+}
+
+.project-card p .icon {
+    vertical-align: middle;
     margin-right: 5px;
 }
