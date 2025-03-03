@@ -14,7 +14,7 @@ h1 {
 
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(3, 250px);
+    grid-template-columns: repeat(3, 300px);
     justify-content: center;
     gap: 20px;
     padding: 20px;
@@ -81,12 +81,12 @@ h1 {
 
 @media (max-width: 800px) {
    .projects-container {
-       grid-template-columns: repeat(2, 250px);
+       grid-template-columns: repeat(2, 300px);
    }
 }
 
 @media (max-width: 500px) {
    .projects-container {
-       grid-template-columns: repeat(1, 250px);
+       grid-template-columns: repeat(1, 300px);
    }
 }
