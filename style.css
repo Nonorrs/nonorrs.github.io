@@ -13,8 +13,8 @@ h1 {
 }
 
 .projects-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     gap: 20px;
     padding: 20px;
@@ -77,4 +77,16 @@ h1 {
 .project-card p .icon {
     vertical-align: middle;
     margin-right: 5px;
+}
+
+@media (max-width: 800px) {
+   .projects-container {
+       grid-template-columns: repeat(2, 1fr);
+   }
+}
+
+@media (max-width: 500px) {
+   .projects-container {
+       grid-template-columns: repeat(1, 1fr);
+   }
 }
